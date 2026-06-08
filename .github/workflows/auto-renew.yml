@@ -25,7 +25,7 @@ jobs:
       - name: 📥 下载私库脚本
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/Xserver-renew-private
+          repository: ${{ github.repository_owner }}/xs
           token: ${{ secrets.PAT_TOKEN }}
           path: private
 
